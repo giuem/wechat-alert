@@ -1,0 +1,22 @@
+{
+  "name": "wechat-alert",
+  "version": "1.0.0",
+  "description": "push notification through wechat-enterprise",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Giuem <i@giuem.com>",
+  "license": "MIT",
+  "keywords": [
+    "wechat",
+    "alert"
+  ],
+  "dependencies": {
+    "axios": "^0.15.3",
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "uuid": "^3.0.1"
+  }
+}
