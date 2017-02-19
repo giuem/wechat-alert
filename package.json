@@ -6,6 +6,13 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giuem/wechat-alert.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/giuem/wechat-alert/issues"
+  },
   "author": "Giuem <i@giuem.com>",
   "license": "MIT",
   "keywords": [
@@ -15,8 +22,6 @@
   "dependencies": {
     "axios": "^0.15.3",
     "basic-auth-connect": "^1.0.0",
-    "body-parser": "^1.16.1",
-    "express": "^4.14.1",
-    "uuid": "^3.0.1"
+    "express": "^4.14.1"
   }
 }
