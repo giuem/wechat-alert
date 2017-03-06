@@ -9,7 +9,7 @@ axios.interceptors.response.use(response => {
         return response
     }
 }, error => {
-    return Promise.reject(error);
+    return Promise.reject(error)
 });
 
 module.exports = (req, res) => {
@@ -29,10 +29,8 @@ module.exports = (req, res) => {
             safe: 0
         }, { params: { access_token: response.data.access_token } })
     }).then(response => {
-        res.status(200)
-        res.send(response.data)
+        res.status(200).send(response.data)
     }).catch(response => {
-        res.status(400)
-        res.send(response.data)
+        res.status(400).send(response.data)
     })
 }
