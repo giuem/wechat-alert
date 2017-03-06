@@ -5,6 +5,7 @@ MAINTAINER Giuem <i@giuem.com>
 # ENV HTTP_AUTH_PASS xxx
 # ENV WECHAT_CORPID xxx
 # ENV WECHAT_SECRET xxx
+ENV NODE_ENV production
 
 COPY . /app  
 WORKDIR /app
